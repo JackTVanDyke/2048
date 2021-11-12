@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  border: 3px solid white;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  outline: 3px solid white;
+}
+
+.restart {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  font-size: 30px;
+  background-color: white;
+  border: 3px solid tan;
+  margin: 50px;
+  padding: 10px;
+}
+
+.restart:hover {
+  background-color: tan;
+  cursor: pointer;
+}
